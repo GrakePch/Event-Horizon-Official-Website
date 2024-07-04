@@ -1,0 +1,139 @@
+[
+  {
+    "name": "Lapernum",
+    "name_zh": "拉邦那",
+    "game_id": "Lapernum",
+    "title_zh": "创始人 / 导演 / 摄影指导 / 摄影 / 编剧 / 剪辑",
+    "links": [
+      ["lapernum.site", "https://lapernum.site"],
+      ["bilibili", "https://space.bilibili.com/57234212"],
+      ["YouTube", "https://www.youtube.com/channel/UCPEzUOCC_9COTUwx4HA5_Gw"],
+      ["X", "https://x.com/lapernum"],
+      ["Instagram", "https://www.instagram.com/lapernum/"]
+    ]
+  },
+  {
+    "name": "Freedomsky",
+    "name_zh": "阿狸划过长空",
+    "game_id": "Freedomsky",
+    "title_zh": "创始人 / 协调 / 后期统筹 / 剪辑 / 视觉效果 / 摄影指导 / 调色 / 编剧",
+    "links": [["bilibili", "https://space.bilibili.com/326980369"]]
+  },
+  {
+    "name": "MuTanzi",
+    "name_zh": "木炭子",
+    "game_id": "MuTanzi",
+    "title_zh": "创始人 / 摄影 / 美术"
+  },
+  {
+    "name": "S-Heinrich",
+    "name_zh": "海因里希",
+    "game_id": "S-Heinrich",
+    "title_zh": "现场调度",
+    "links": [["bilibili", "https://space.bilibili.com/381761935"]]
+  },
+  {
+    "name": "Yuri",
+    "name_zh": "尤里",
+    "game_id": "Yuri_056",
+    "title_zh": "摄影",
+    "links": [["X", "https://x.com/Yuri_056_SC"]]
+  },
+  {
+    "name": "GrakePCH",
+    "game_id": "GrakePCH",
+    "title_zh": "平面设计 / 网页开发",
+    "links": [
+      ["grakep.ch", "https://grakep.ch/"],
+      ["GitHub", "https://github.com/GrakePch"],
+      ["bilibili", "https://space.bilibili.com/1020137"]
+    ]
+  },
+  {
+    "name": "Tea_tea",
+    "name_zh": "茶茶",
+    "game_id": "Tea_tea",
+    "title_zh": "后勤组长 / 场景设计",
+    "links": [["bilibili", "https://space.bilibili.com/4811488"]]
+  },
+  {
+    "name": "Au_Leo",
+    "name_zh": "凹料",
+    "game_id": "Au_Leo",
+    "title_zh": "飞手 / 护卫",
+    "links": [["bilibili", "https://space.bilibili.com/1590415681"]]
+  },
+  {
+    "name": "Niwa Makoto",
+    "name_zh": "丹羽真",
+    "game_id": "DanYu-Makoto",
+    "title_zh": "场务 / VerseGuide Contributor",
+    "links": [["RSI", "https://robertsspaceindustries.com/citizens/DanYu-Makoto"]]
+  },
+  {
+    "name": "AUK",
+    "game_id": "AUK-FPV",
+    "title_zh": "飞手",
+    "links": [[]]
+  },
+  {
+    "name": "XingKongCFR",
+    "name_zh": "星空",
+    "game_id": "XingKongCFR",
+    "title_zh": "摄影 / 剪辑",
+    "links": [["bilibili", "https://space.bilibili.com/260367100"]]
+  },
+  {
+    "name": "hAo_Mondrian",
+    "name_zh": "朔贤_蒙德里安",
+    "game_id": "hAo_Mondrian",
+    "title_zh": "调色 / 场记 / 剪辑",
+    "links": [
+      ["bilibili", "https://space.bilibili.com/28178769"],
+      ["X", "https://x.com/haodou17"]
+    ]
+  },
+  {
+    "name": "chailang",
+    "name_zh": "豺狼",
+    "game_id": "chailang",
+    "title_zh": "后勤",
+    "links": [["bilibili", "https://space.bilibili.com/2116261"]]
+  },
+  {
+    "name": "heheheheda114514",
+    "name_zh": "呵呵哒",
+    "game_id": "heheheheda114514",
+    "title_zh": "后勤",
+    "links": [["bilibili", "https://space.bilibili.com/349522990"]]
+  },
+  {
+    "name": "Mk08",
+    "game_id": "Mk_08",
+    "title_zh": "飞手 / 护卫"
+  },
+  {
+    "name": "LionsInTheSky",
+    "name_zh": "天狮",
+    "game_id": "LionsInTheSky",
+    "title_zh": "配乐 / 音频设计",
+    "links": [
+      ["幻响音乐", "http://www.vanemusic.cn/"],
+      ["NetEase Cloud Music", "https://music.163.com/#/artist?id=12120407"],
+      ["bilibili", "https://space.bilibili.com/8221369"],
+      ["Instagram", "https://www.instagram.com/lions.inthesky/"]
+    ]
+  },
+  {
+    "name": "XE",
+    "game_id": "XE01",
+    "title_zh": "后勤"
+  },
+  {
+    "name": "QuasoPuffer",
+    "name_zh": "Puffer河图",
+    "game_id": "PufferSSCat",
+    "title_zh": "摄影",
+    "links": [["bilibili", "https://space.bilibili.com/22887701"]]
+  }
+]
