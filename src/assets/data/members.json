@@ -23,7 +23,8 @@
     "name": "MuTanzi",
     "name_zh": "木炭子",
     "game_id": "MuTanzi",
-    "title_zh": "创始人 / 摄影 / 美术"
+    "title_zh": "创始人 / 摄影 / 美术",
+    "links": [["bilibili", "https://space.bilibili.com/30746232"]]
   },
   {
     "name": "S-Heinrich",

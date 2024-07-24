@@ -15,11 +15,9 @@ let newMemberList = founders.concat(shuffled)
   <div class="about">
     <IconLogoEventHorizonFullENUS class="logo-full" />
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porta rutrum risus, nec placerat
-      metus auctor ut. Nulla vel vehicula mauris, sed semper risus. Maecenas blandit convallis
-      sapien ut tempus. Aenean ac tristique nisl. Vivamus blandit risus ut dolor tincidunt, sit amet
-      facilisis neque auctor. Maecenas dignissim nisl eget risus eleifend commodo. In nec nibh
-      commodo, hendrerit sem at, semper nisl. Vivamus faucibus sodales risus at posuere.
+      尽所能将星际公民世界的魅力展现给每个人。我们是一个制作各种游戏内视频和微电影的制作组，希望你能喜欢。<br />
+      Trying our best to present the beauty and charm of Star Citizen World to everyone. We produce
+      many kinds of in-game short films and videos. Hope you like them.
     </p>
     <p class="social">
       Find us on

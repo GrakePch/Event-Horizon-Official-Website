@@ -10,6 +10,7 @@ import heheheheda from './heheheheda.jpeg'
 import mk08 from './mk08.png'
 import lionsinthesky from './lionsinthesky.jpg'
 import puffer from './puffer.jpeg'
+import mtz from './MTZ.png'
 
 const avatars = {
   Lapernum: lapernum,
@@ -23,7 +24,8 @@ const avatars = {
   heheheheda114514: heheheheda,
   Mk08: mk08,
   LionsInTheSky: lionsinthesky,
-  PufferSSCat: puffer
+  PufferSSCat: puffer,
+  MuTanzi: mtz
 }
 
 export default avatars

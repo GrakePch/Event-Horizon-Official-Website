@@ -32,6 +32,7 @@ header {
   color: var(--color-text);
   padding: 2rem;
   font-family: var(--font-geom);
+  z-index: 100;
 }
 
 .backdrop {
