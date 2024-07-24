@@ -1,6 +1,7 @@
 <script setup>
 import covers from '@/assets/img/covers'
 import { defineProps } from 'vue'
+import bg_lines from '@/assets/lines.png'
 
 const props = defineProps({
   title: String,
@@ -13,7 +14,10 @@ const props = defineProps({
 
 <template>
   <section class="work">
-    <img :src="covers[props.id]" class="cover" />
+    <img v-if="covers[props.id]" class="cover" :src="covers[props.id]" />
+    <div v-else class="cover no-cover" :style="{ 'background-image': 'url(' + bg_lines + ')' }">
+      <p>暂无封面</p>
+    </div>
     <div class="work-text">
       <small
         >事件视界作品 #{{ props.id }} |
@@ -36,6 +40,20 @@ const props = defineProps({
 }
 .cover {
   width: 100%;
+}
+.cover.no-cover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 16 / 9;
+  opacity: 0.25;
+  background-position: center;
+  background-size: 4rem;
+}
+.cover.no-cover > p {
+  background-color: #000;
+  padding: 1.5rem 3rem;
+  font-size: 1.5rem;
 }
 .work-text {
   display: flex;
