@@ -1,5 +1,5 @@
 <script setup>
-import coverImage from '@/assets/img/cover-4.bmp'
+import coverImage from '@/assets/img/home-cover-4.jpg'
 </script>
 
 <template>

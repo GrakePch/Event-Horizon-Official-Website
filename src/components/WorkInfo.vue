@@ -6,6 +6,7 @@ const props = defineProps({
   title: String,
   description: String,
   id: Number,
+  date: [Number, Number, Number],
   watch: Object
 })
 </script>
@@ -14,7 +15,10 @@ const props = defineProps({
   <section class="work">
     <img :src="covers[props.id]" class="cover" />
     <div class="work-text">
-      <small>Event Horizon Work #{{ props.id }}</small>
+      <small
+        >事件视界作品 #{{ props.id }} |
+        {{ `${props.date[0]} - ${props.date[1]} - ${props.date[2]}` }}</small
+      >
       <h1>{{ props.title }}</h1>
       <p class="watch-links">
         Watch on <a :href="props.watch.bilibili" target="_blank" rel="noopener">bilibili</a> |
@@ -33,6 +37,11 @@ const props = defineProps({
 .cover {
   width: 100%;
 }
+.work-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
 .work-text > small {
   font-size: 1.5rem;
   color: var(--color-text-soft);
@@ -42,6 +51,7 @@ const props = defineProps({
   text-transform: uppercase;
   letter-spacing: -0.1ch;
   word-spacing: 0.25ch;
+  font-variant-numeric: tabular-nums;
 }
 .work-text > h1 {
   font-size: 3rem;
@@ -50,7 +60,7 @@ const props = defineProps({
   line-height: 125%;
 }
 .watch-links {
-  line-height: 4;
+  line-height: 2;
 }
 .description {
   line-height: 2;

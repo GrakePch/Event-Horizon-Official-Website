@@ -1,6 +1,40 @@
 [
   {
+    "id": 1,
+    "date": [2022, 9, 18],
+    "title": "Bar Citizen Chongqing: Promotion Video",
+    "title_zh": "Bar Citizen 重庆：宣传片",
+    "description": "",
+    "description_zh": "",
+    "watch": {}
+  },
+  {
+    "id": 2,
+    "date": [2023, 5, 25],
+    "title": "",
+    "title_zh": "Bar Citizen 上海：系列故事片 EP01 传递",
+    "description": "",
+    "description_zh": "K3战队，曾经作为叱诧风云的UEE第42集团军旗下的王牌海陆空天全能精英战队，如今已经被尘封在了那次剜度大战的历史当中。而南天，作为K3战队曾经的战队长，来到了熟悉的克莱俄佩，进行着日复一日平凡却又稳定的快递任务...",
+    "watch": {
+      "bilibili": "https://www.bilibili.com/video/BV1Rs4y1K7Bj/",
+      "YouTube": "https://youtu.be/LiyEF1iKGyM"
+    }
+  },
+  {
+    "id": 3,
+    "date": [2023, 6, 17],
+    "title": "",
+    "title_zh": "Bar Citizen 上海：系列故事片 EP02 寻觅",
+    "description": "",
+    "description_zh": "保持理智和隐忍。这是娜塔莎·乔纳森的行动准则。她曾经是小队里最优秀的战士，冰川一般的战士。青年时家族的严苛训练，让她成为了这片星空下最强也最孤单的人。解散K3战队后的每一天，我都在不断的责怪自己，是否曾有挽回的机会，K3为何落到这种地步，K3战队的每位战士，都在我的梦境中不断出现。我总是抱有这样的希望，终有一日K3战队的利刃能再次出鞘。",
+    "watch": {
+      "bilibili": "https://www.bilibili.com/video/BV12X4y147ku/",
+      "YouTube": "https://youtu.be/1goUyN5vQGE"
+    }
+  },
+  {
     "id": 4,
+    "date": [2024, 7, 3],
     "title": "Why do YOU love Star Citizen?",
     "title_zh": "你为什么喜欢星际公民？",
     "description": "Star Citizen brings both beautiful and regretful memories to everyone. But most importantly, each memory is uniquely special. Whether you've thought about this question before or not, when you face it directly, what answer will you give? I hope this video helps you recall the original feelings of excitement.\nBefore that, let's listen to the answers from these players (and not just players).",
@@ -12,12 +46,26 @@
   },
   {
     "id": 4.1,
-    "title": "当你尝试用星际公民复刻“小岛秀夫工作室”形象片...",
-    "title_zh": "当你尝试用星际公民复刻“小岛秀夫工作室”形象片...",
-    "description": "一次偶然的契机，让事件视界制作组的成员决定尝试在星际公民里复刻小岛秀夫工作室的形象宣传片。",
+    "date": [2024, 7, 16],
+    "title": "",
+    "title_zh": "用星际公民复刻「小岛秀夫工作室」形象片",
+    "description": "",
     "description_zh": "一次偶然的契机，让事件视界制作组的成员决定尝试在星际公民里复刻小岛秀夫工作室的形象宣传片。",
     "watch": {
-      "bilibili": "https://www.bilibili.com/video/BV1Sw4m1a7Bs"
+      "bilibili": "https://www.bilibili.com/video/BV1Sw4m1a7Bs",
+      "Youtube": "https://youtu.be/P15uCnZdFQI"
+    }
+  },
+  {
+    "id": 5,
+    "date": [2024, 4, 30],
+    "title": "Space Odyssey 2954 \"Waltz of Idris\"",
+    "title_zh": "伊德里斯圆舞曲",
+    "description": "Two Idrises with The Blue Danube can present something like magic.",
+    "description_zh": "两艘小姨激情互射，配上蓝色多瑙河，有一种特别美妙的滋味。",
+    "watch": {
+      "bilibili": "https://www.bilibili.com/video/BV19r421u7Wv/",
+      "YouTube": "https://youtu.be/_yVL3_nNhPo"
     }
   }
 ]

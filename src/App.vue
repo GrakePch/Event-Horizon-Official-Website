@@ -10,9 +10,9 @@ import IconLogoEventHorizon from './components/icons/IconLogoEventHorizon.vue'
     <div class="grow"></div>
 
     <nav>
-      <RouterLink to="/works">Works</RouterLink>
+      <RouterLink to="/works">作品</RouterLink>
       <!-- <RouterLink to="/feeds">Feeds</RouterLink> -->
-      <RouterLink to="/about">About</RouterLink>
+      <RouterLink to="/about">关于</RouterLink>
     </nav>
   </header>
   <div class="main">

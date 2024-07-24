@@ -7,9 +7,10 @@ import WorkInfo from '@/components/WorkInfo.vue'
   <div class="works-list">
     <WorkInfo
       v-for="work in works.sort((a, b) => b.id - a.id)"
-      :title="work.title"
-      :description="work.description"
+      :title="work.title_zh"
+      :description="work.description_zh"
       :id="work.id"
+      :date="work.date"
       :watch="work.watch"
     />
   </div>
@@ -19,6 +20,6 @@ import WorkInfo from '@/components/WorkInfo.vue'
 .works-list {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 8rem;
 }
 </style>
