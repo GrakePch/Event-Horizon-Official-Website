@@ -44,14 +44,13 @@ let newMemberList = founders.concat(shuffled)
 <style scoped>
 .about {
   padding-top: 15vh;
-  height: 75vh;
   display: flex;
   flex-direction: column;
   gap: 2rem;
   align-items: start;
 }
 .logo-full {
-  height: 15vh;
+  height: 8rem;
   margin-bottom: 1rem;
 }
 .about > p {
@@ -65,7 +64,7 @@ let newMemberList = founders.concat(shuffled)
   gap: 1rem;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
   .about {
     position: fixed;
     width: calc(50% - 4rem);

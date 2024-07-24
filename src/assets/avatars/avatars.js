@@ -21,7 +21,7 @@ const avatars = {
   XingKongCFR: xingkong,
   hAo_Mondrian: hao_mondrian,
   heheheheda114514: heheheheda,
-  Mk_08: mk08,
+  Mk08: mk08,
   LionsInTheSky: lionsinthesky,
   PufferSSCat: puffer
 }
