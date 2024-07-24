@@ -24,10 +24,18 @@ const props = defineProps({
         {{ `${props.date[0]} - ${props.date[1]} - ${props.date[2]}` }}</small
       >
       <h1>{{ props.title }}</h1>
-      <p class="watch-links">
+      <p v-if="props.watch.bilibili && props.watch.YouTube" class="watch-links">
         Watch on <a :href="props.watch.bilibili" target="_blank" rel="noopener">bilibili</a> |
         <a :href="props.watch.YouTube" target="_blank" rel="noopener">YouTube</a>
       </p>
+      <p v-else-if="props.watch.bilibili" class="watch-links">
+        Watch on <a :href="props.watch.bilibili" target="_blank" rel="noopener">bilibili</a>
+      </p>
+      <p v-else-if="props.watch.YouTube" class="watch-links">
+        Watch on <a :href="props.watch.bilibili" target="_blank" rel="noopener">YouTube</a>
+      </p>
+      <template v-else />
+
       <p class="description">{{ props.description }}</p>
     </div>
   </section>
