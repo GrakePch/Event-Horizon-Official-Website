@@ -19,10 +19,10 @@ const props = defineProps({
       <p>暂无封面</p>
     </div>
     <div class="work-text">
-      <small
-        >事件视界作品 #{{ props.id }} |
-        {{ `${props.date[0]} - ${props.date[1]} - ${props.date[2]}` }}</small
-      >
+      <div class="id-and-date">
+        <small class="id">事件视界作品 #{{ props.id }}</small>
+        <small class="date">{{ `${props.date[0]}-${props.date[1]}-${props.date[2]}` }}</small>
+      </div>
       <h1>{{ props.title }}</h1>
       <p v-if="props.watch.bilibili && props.watch.YouTube" class="watch-links">
         Watch on <a :href="props.watch.bilibili" target="_blank" rel="noopener">bilibili</a> |
@@ -68,16 +68,28 @@ const props = defineProps({
   flex-direction: column;
   gap: 1rem;
 }
-.work-text > small {
-  font-size: 1.5rem;
-  color: var(--color-text-soft);
-  font-weight: 500;
+.id-and-date {
+  display: flex;
+  align-items: center;
+  gap: 1ch;
+}
+.id {
+  display: block;
+  color: var(--color-background);
+  background-color: var(--color-text);
+  font-size: 1.25rem;
+  font-weight: bold;
   font-family: var(--font-geom);
-  line-height: 100%;
+  line-height: 1.5;
   text-transform: uppercase;
-  letter-spacing: -0.1ch;
-  word-spacing: 0.25ch;
   font-variant-numeric: tabular-nums;
+  padding: 0 0.5ch;
+}
+.date {
+  font-size: 1.25rem;
+  color: var(--color-text-soft);
+  font-family: var(--font-geom);
+  line-height: 1;
 }
 .work-text > h1 {
   font-size: 3rem;
