@@ -198,7 +198,8 @@
     "name": "CUPOI",
     "name_zh": "吃咖喱的poi",
     "game_id": "CUPOI",
-    "title_zh": "原画设计"
+    "title_zh": "原画设计",
+    "links": [["bilibili", "https://space.bilibili.com/6701071"]]
   },
   {
     "name": "NAIPIAN",
