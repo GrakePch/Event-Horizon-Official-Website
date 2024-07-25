@@ -74,7 +74,7 @@
   {
     "name": "AUK",
     "game_id": "AUK-FPV",
-    "title_zh": "飞手",
+    "title_zh": "游戏设计 / 开发 / 飞手",
     "links": [[]]
   },
   {
@@ -114,6 +114,16 @@
     "title_zh": "飞手 / 护卫"
   },
   {
+    "name": "Bob",
+    "name_zh": "发条",
+    "game_id": "BOBGENG",
+    "title_zh": "声音设计师",
+    "links": [
+      ["email", "mailto:t.d.1900@163.com"],
+      ["bilibili", "https://space.bilibili.com/525755645"]
+    ]
+  },
+  {
     "name": "LionsInTheSky",
     "name_zh": "天狮",
     "game_id": "LionsInTheSky",
@@ -131,10 +141,92 @@
     "title_zh": "后勤"
   },
   {
+    "name": "GKRTC",
+    "name_zh": "RTC",
+    "game_id": "GKRTC",
+    "title_zh": "剪辑后期 / 产品设计 / 3D美术 / 平面设计",
+    "links": [
+      ["bilibili", "https://space.bilibili.com/497235146"],
+      ["Instagram", "https://www.instagram.com/j.yang_chen/"],
+      ["X", "https://x.com/GKingRTC_07"]
+    ]
+  },
+  {
+    "name": "CxJuice",
+    "name_zh": "澄风拌果汁",
+    "game_id": "CxJuice",
+    "title_zh": "技术支持 / 摄影 / 编剧",
+    "links": [["bilibili", "https://space.bilibili.com/9130438"]]
+  },
+  {
     "name": "QuasoPuffer",
     "name_zh": "Puffer河图",
     "game_id": "PufferSSCat",
     "title_zh": "摄影",
     "links": [["bilibili", "https://space.bilibili.com/22887701"]]
+  },
+  {
+    "name": "JunShi",
+    "name_zh": "君逝",
+    "game_id": "Jun_Shi",
+    "title_zh": "配音 / 后勤"
+  },
+  {
+    "name": "Laosher",
+    "name_zh": "劳舍尔",
+    "game_id": "laoshe",
+    "title_zh": "堪景 / 剪辑",
+    "links": [["bilibili", "https://space.bilibili.com/101703738"]]
+  },
+  {
+    "name": "DD",
+    "name_zh": "DYD",
+    "game_id": "Brohands1",
+    "title_zh": "程序开发 / 后勤",
+    "links": [
+      ["bilibili", "https://space.bilibili.com/90614028"],
+      ["email", "mailto:3150868896@qq.com"]
+    ]
+  },
+  {
+    "name": "Tuanzi",
+    "name_zh": "团子",
+    "game_id": "Tuanzi233",
+    "title_zh": "后备"
+  },
+  {
+    "name": "CUPOI",
+    "name_zh": "吃咖喱的poi",
+    "game_id": "CUPOI",
+    "title_zh": "原画设计"
+  },
+  {
+    "name": "NAIPIAN",
+    "name_zh": "奶片",
+    "game_id": "Vber",
+    "title_zh": "摄影 / 分镜",
+    "links": [
+      ["Sketchfab", "https://sketchfab.com/1594456614"],
+      ["bilibili", "https://m.bilibili.com/space/17059784"]
+    ]
+  },
+  {
+    "name": "Akkins",
+    "name_zh": "Akkins",
+    "game_id": "Akkins",
+    "title_zh": "飞手 / 护卫 / 摄影",
+    "links": [["bilibili", "https://space.bilibili.com/43950651"]]
+  },
+  {
+    "name": "The Architact",
+    "name_zh": "TA",
+    "title_zh": "后备"
+  },
+  {
+    "name": "FeStrong0805",
+    "name_zh": "FE",
+    "game_id": "FeStrong0805",
+    "title_zh": "资产 / 后备",
+    "links": [["bilibili", "https://space.bilibili.com/5600021"]]
   }
 ]

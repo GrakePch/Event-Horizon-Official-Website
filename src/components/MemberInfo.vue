@@ -5,6 +5,7 @@ import avatars from '@/assets/avatars/avatars.js'
 
 const props = defineProps({
   name: String,
+  name_zh: String,
   game_id: String,
   title: String,
   avatar: String,
@@ -14,11 +15,11 @@ const props = defineProps({
 
 <template>
   <div class="member">
-    <img :src="avatars[game_id] || avatarDefault" class="avatar" />
+    <img :src="avatars[name] || avatarDefault" class="avatar" />
     <div class="member-text">
       <h2>
-        {{ props.name }}
-        <span
+        {{ props.name_zh || props.name }}
+        <span v-if="props.game_id"
           ><a
             :href="'https://robertsspaceindustries.com/citizens/' + props.game_id"
             target="_blank"
@@ -27,7 +28,11 @@ const props = defineProps({
           ></span
         >
       </h2>
-      <h3>{{ props.title }}</h3>
+      <h3>
+        <template v-for="t in props.title.split(' / ')"
+          ><span>{{ t }}</span></template
+        >
+      </h3>
       <p>
         <template v-for="[index, [text, href]] in links?.entries()">
           <template v-if="index > 0"> | </template>
@@ -74,7 +79,20 @@ const props = defineProps({
   display: none;
 }
 .member-text h3 {
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+.member-text h3 > span {
+  color: var(--color-background);
+  background-color: var(--color-text-soft);
+  font-size: 0.875rem;
+  font-family: var(--font-sans);
+  font-weight: 600;
+  padding: 0 0.25rem;
 }
 
 .member-text p {

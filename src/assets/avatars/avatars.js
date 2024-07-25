@@ -11,21 +11,41 @@ import mk08 from './mk08.png'
 import lionsinthesky from './lionsinthesky.jpg'
 import puffer from './puffer.jpeg'
 import mtz from './MTZ.png'
+import bob from './bob.png'
+import gkrtc from './gkrtc.jpeg'
+import cxjuice from './cxjuice.png'
+import junshi from './junshi.jpeg'
+import laosher from './laosher.jpeg'
+import cupoi from './cupoi.jpeg'
+import naipian from './naipian.jpeg'
+import akkins from './akkins.jpeg'
+import the_architact from './the_architact.png'
+import festrong0805 from './festrong0805.jpeg'
 
 const avatars = {
   Lapernum: lapernum,
   Freedomsky: freedomsky,
   GrakePCH: grakepch,
   Tea_tea: tea_tea,
-  'DanYu-Makoto': makoto,
-  'AUK-FPV': auk,
+  'Niwa Makoto': makoto,
+  AUK: auk,
   XingKongCFR: xingkong,
   hAo_Mondrian: hao_mondrian,
   heheheheda114514: heheheheda,
-  Mk_08: mk08,
+  Mk08: mk08,
+  Bob: bob,
   LionsInTheSky: lionsinthesky,
-  PufferSSCat: puffer,
-  MuTanzi: mtz
+  QuasoPuffer: puffer,
+  MuTanzi: mtz,
+  GKRTC: gkrtc,
+  CxJuice: cxjuice,
+  JunShi: junshi,
+  Laosher: laosher,
+  CUPOI: cupoi,
+  NAIPIAN: naipian,
+  Akkins: akkins,
+  'The Architact': the_architact,
+  FeStrong0805: festrong0805
 }
 
 export default avatars
