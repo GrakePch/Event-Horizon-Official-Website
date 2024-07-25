@@ -30,7 +30,7 @@ header {
   align-items: center;
   line-height: 1.5;
   color: var(--color-text);
-  padding: 2rem;
+  padding: 1rem;
   font-family: var(--font-geom);
   z-index: 100;
 }
@@ -102,9 +102,16 @@ nav a:hover {
 }
 
 .main {
-  padding-top: 4.875rem;
+  padding-top: 3.875rem;
 }
 
 @media (min-width: 1024px) {
+  header {
+    padding: 2rem;
+  }
+
+  .main {
+    padding-top: 4.875rem;
+  }
 }
 </style>

@@ -53,7 +53,7 @@ let newMemberList = founders.concat(shuffled)
   width: 100%;
   height: 100vh;
   position: absolute;
-  padding: 0 2rem;
+  padding: 0 1rem;
 }
 .about {
   padding-top: 30vh;
@@ -65,6 +65,7 @@ let newMemberList = founders.concat(shuffled)
 .logo-full {
   height: 8rem;
   margin-bottom: 1rem;
+  max-width: 100%;
 }
 .about > p {
   line-height: 2;
@@ -79,9 +80,10 @@ let newMemberList = founders.concat(shuffled)
   overflow: visible;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .about-container {
     grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
   }
   .member-list {
     padding-top: 30vh;
