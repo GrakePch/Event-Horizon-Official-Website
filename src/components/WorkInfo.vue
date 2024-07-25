@@ -80,10 +80,10 @@ const props = defineProps({
   font-size: 1.25rem;
   font-weight: bold;
   font-family: var(--font-geom);
-  line-height: 1.5;
+  line-height: 1;
   text-transform: uppercase;
   font-variant-numeric: tabular-nums;
-  padding: 0 0.5ch;
+  padding: 0.25rem 0.5ch;
 }
 .date {
   font-size: 1.25rem;

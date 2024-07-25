@@ -14,7 +14,7 @@ const props = defineProps({
 
 <template>
   <div class="member">
-    <img :src="avatars[name] || avatarDefault" class="avatar" />
+    <img :src="avatars[game_id] || avatarDefault" class="avatar" />
     <div class="member-text">
       <h2>
         {{ props.name }}

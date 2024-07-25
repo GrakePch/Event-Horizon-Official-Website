@@ -34,7 +34,7 @@ let newMemberList = founders.concat(shuffled)
     <div class="member-list">
       <MemberInfo
         v-for="member in newMemberList"
-        :name="member.name"
+        :name="member.name_zh || member.name"
         :game_id="member.game_id"
         :title="member.title_zh"
         :links="member.links"
