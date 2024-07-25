@@ -55,6 +55,9 @@ const props = defineProps({
 .member-text h2 {
   line-height: 1;
   font-weight: bold;
+  align-items: center;
+  display: flex;
+  gap: 0.25ch;
 }
 .member-text h2 span {
   color: var(--color-text-soft);

@@ -41,7 +41,8 @@ header {
   top: 0;
   width: 100%;
   height: 100%;
-  mask-image: linear-gradient(black 20%, transparent);
+  background: linear-gradient(var(--color-background) 0, transparent);
+  mask-image: linear-gradient(black 25%, transparent);
   backdrop-filter: blur(4px);
 }
 
