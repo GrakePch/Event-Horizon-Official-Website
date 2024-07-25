@@ -30,6 +30,14 @@ let newMemberList = founders.concat(shuffled)
           >YouTube</a
         >
       </p>
+      <p>
+        想要加入我们？请联系这个邮箱：<a
+          href="mailto:lapernum@eventhorizon.team"
+          target="_blank"
+          rel="noopener"
+          >lapernum@eventhorizon.team</a
+        >
+      </p>
     </div>
     <div class="member-list">
       <MemberInfo
