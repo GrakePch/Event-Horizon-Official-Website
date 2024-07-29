@@ -21,22 +21,30 @@ import naipian from './naipian.jpeg'
 import akkins from './akkins.jpeg'
 import the_architact from './the_architact.png'
 import festrong0805 from './festrong0805.jpeg'
+import s_heinrich from './s_heinrich.jpg'
+import yuri from './yuri.png'
+import au_leo from './au_leo.jpeg'
+import chailang from './chailang.png'
 
 const avatars = {
   Lapernum: lapernum,
   Freedomsky: freedomsky,
   GrakePCH: grakepch,
   Tea_tea: tea_tea,
+  Au_Leo: au_leo,
   'Niwa Makoto': makoto,
   AUK: auk,
   XingKongCFR: xingkong,
   hAo_Mondrian: hao_mondrian,
+  chailang: chailang,
   heheheheda114514: heheheheda,
   Mk08: mk08,
   Bob: bob,
   LionsInTheSky: lionsinthesky,
   QuasoPuffer: puffer,
   MuTanzi: mtz,
+  'S-Heinrich': s_heinrich,
+  Yuri: yuri,
   GKRTC: gkrtc,
   CxJuice: cxjuice,
   JunShi: junshi,
